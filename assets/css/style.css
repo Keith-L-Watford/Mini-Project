@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #243a80;
+
+}
+.card {
+    width: 800px;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    top: 300px;
+    padding: 50px 30px;
+    background-color: #a6c5e8;
+
+}
+
+#exampleFormControlTextarea1 {
+    resize: none;
+    height: 30px;
+}
+.btn-primary {
+    width: 100%;
+    background-color: palegreen;
+    border-color: transparent;
+    color: white;
+    cursor: pointer;
+}
+
+.btn-primary:hover {
+    color: black;
+    background-color: palegreen;
+    border-color: transparent;
+}
+
+.card h2 {
+    margin-bottom: 20px;
+}
